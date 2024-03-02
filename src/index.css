@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  
+  align-items: center;
+  min-height: 100vh;
+
+  background:url('./Assests/23.jpeg')
+  no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.dropdown {
+  position: absolute;
+  top: 4.5rem;
+  right: 1.5rem;
+  width: 120px;
+  height: auto;
+  padding: 15px;
+  border-radius: 15px;
+  
+  align-content: center;
+}
+

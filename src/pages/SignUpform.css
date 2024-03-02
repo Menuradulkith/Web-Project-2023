@@ -1,0 +1,110 @@
+.wrapper {
+  width: 490px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(30px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+}
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+}
+.wrapper .input-box1 {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+.input-box1 input {
+  width: 50%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px;
+}
+.input-box1 input::placeholder {
+  color: #fff;
+}
+.input-box1 .icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+}
+.wrapper .input-box2 {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+.input-box2 input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px;
+}
+.input-box2 input::placeholder {
+  color: #fff;
+}
+.input-box2 .icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+}
+.wrapper .terms-checkbox {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin: -15px 0 15px;
+}
+.terms-checkbox labale input {
+  accent-color: #fff;
+  margin-right: 4px;
+}
+.terms-checkbox a {
+  color: #fff;
+  text-decoration: none;
+}
+.terms-checkbox a:hover {
+  text-decoration: underline;
+}
+
+.wrapper button {
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 700;
+}
+
+.password-mismatch input {
+  border: 1px solid red;
+}
+
+.error-message {
+  color: red;
+  font-size: 11px;
+}
